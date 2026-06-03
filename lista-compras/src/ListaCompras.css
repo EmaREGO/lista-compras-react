@@ -1,0 +1,101 @@
+.compras-contenedor {
+    background-color: #242424;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.compras-contenedor h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #61dafb;
+}
+
+.compras-input-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.compras-input-box input {
+    flex: 1;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.compras-input-box input:focus {
+    border-color: #61dafb;
+}
+
+/* Botones generales */
+button {
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-agregar {
+    background-color: #61dafb;
+    color: #000;
+}
+
+.btn-agregar:hover {
+    -color: #4fa8c7;
+}
+
+/* Lista de productos */
+.compras-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.compras-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    border-left: 4px solid #61dafb;
+}
+
+.btn-eliminar {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.btn-eliminar:hover {
+    background-color: #cc3333;
+}
+
+/* Botón para vaciar todo */
+.btn-vaciar {
+    background-color: transparent;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.btn-vaciar:hover {
+    background-color: rgba(255, 77, 77, 0.1);
+}
