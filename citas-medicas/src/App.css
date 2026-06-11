@@ -1,0 +1,156 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #f3f4f6;
+}
+
+.contador-box {
+  background-color: #1e1e1e;
+  padding: 32px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.contador-box h1 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #61dafb;
+  text-align: center;
+}
+
+.contador-box h2 {
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 8px;
+  color: #9ca3af;
+}
+
+/* Formulario de entradas */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-container input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background-color: #2d2d2d;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-container input:focus {
+  border-color: #61dafb;
+}
+
+/* Botones */
+button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.btn-agregar {
+  background-color: #61dafb;
+  color: #111;
+}
+
+.btn-agregar:hover {
+  background-color: #4fa8c7;
+}
+
+/* Lista de tareas */
+.tareas-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.tarea-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d2d2d;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border-left: 4px solid #61dafb;
+}
+
+.tarea-nombre {
+  font-weight: 500;
+}
+
+.tarea-duracion {
+  background-color: #374151;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #61dafb;
+}
+
+/* Sección de pie con totales y botón limpiar */
+.totales-container {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.totales-container h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.totales-container h3 span {
+  color: #61dafb;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.btn-limpiar {
+  background-color: transparent;
+  color: #ef4444;
+  border: 1px solid #ef4444;
+  width: 100%;
+}
+
+.btn-limpiar:hover {
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+.nav-link {
+  color: #9ca3af;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #61dafb;
+}
